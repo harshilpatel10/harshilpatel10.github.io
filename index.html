@@ -23,13 +23,14 @@
 
     header h1 {
       font-size: 42px;
-      margin-bottom: 5px;
+      margin: 0 0 5px 0;
     }
 
     header h2 {
       font-size: 20px;
       font-weight: normal;
-      margin-top: 0;
+      margin: 0;
+      color: white;
     }
 
     nav {
@@ -44,6 +45,10 @@
       text-decoration: none;
       font-weight: bold;
       margin: 0 20px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
     }
 
     main {
@@ -82,7 +87,15 @@
 
     .project h3 {
       margin-top: 0;
+      margin-bottom: 5px;
       color: #1d3557;
+    }
+
+    .project-tools {
+      color: #666;
+      font-size: 14px;
+      font-weight: bold;
+      margin-top: 0;
     }
 
     footer {
@@ -138,6 +151,9 @@
 
       <div class="project">
         <h3>Ashbourne Industries Trial Balance Analysis</h3>
+        <p class="project-tools">
+          Microsoft Excel • Financial Accounting • Data Analysis
+        </p>
         <p>
           Analyzed a monthly trial balance in Excel by categorizing accounts
           across assets, liabilities and equity, revenue, and expenses. Used
@@ -148,6 +164,9 @@
 
       <div class="project">
         <h3>Healthcare Spend & Procurement Analysis</h3>
+        <p class="project-tools">
+          Capital Health • Lawson ERP • Excel
+        </p>
         <p>
           Analyzed purchasing and procurement data during my internship at
           Capital Health while gaining exposure to procure-to-pay workflows,
@@ -157,6 +176,9 @@
 
       <div class="project">
         <h3>Biotech Valuation Research</h3>
+        <p class="project-tools">
+          Pensieve Health • Valuation • Market Research
+        </p>
         <p>
           Researched biotech and AI companies to evaluate valuation drivers,
           comparable companies, clinical milestones, proprietary data, and
